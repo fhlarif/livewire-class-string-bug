@@ -3,6 +3,6 @@
         <x-breadcrumbs :breadcrumbs="[['name' => 'Index', 'url' => route('bug.index')]]" />
     </x-slot>
     <main>
-        <livewire:patient-livewire>
+        <livewire:patient-livewire :patientSearch="$pt">
     </main>
 </x-guest-layout>
